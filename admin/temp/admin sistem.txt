@@ -1,0 +1,14 @@
+Home
+Profile
+Mata Kuliah
+ -Tambah
+ -Daftar
+ -Jadwal
+Mahasiswa (Daftar)
+Dosen
+ -Tambah
+ -Daftar
+ -	
+Asisten Lab
+
+Logout
