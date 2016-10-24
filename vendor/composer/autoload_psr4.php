@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Symfony\\Component\\EventDispatcher\\' => array($vendorDir . '/symfony/event-dispatcher'),
+    'Cowsayphp\\' => array($vendorDir . '/alrik11es/cowsayphp/src'),
 );

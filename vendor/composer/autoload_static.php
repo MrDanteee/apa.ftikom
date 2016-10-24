@@ -11,12 +11,20 @@ class ComposerStaticInit42cd52b6b7bf10262b87742127180a3a
         array (
             'Symfony\\Component\\EventDispatcher\\' => 34,
         ),
+        'C' => 
+        array (
+            'Cowsayphp\\' => 10,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Symfony\\Component\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
+        ),
+        'Cowsayphp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alrik11es/cowsayphp/src',
         ),
     );
 

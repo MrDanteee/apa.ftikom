@@ -151,6 +151,10 @@
         </div>
 
         <?php
+        $app->get('/cowsay', function() use($app) {
+  $app['monolog']->addDebug('cowsay');
+  return "<pre>".\Cowsayphp\Cow::say("Cool beans")."</pre>";
+});
           include 'db/db.php';
           $q = mysql_query("SELECT * FROM tb_informasi ORDER BY id_info DESC");
           while ($r = mysql_fetch_assoc($q)) {
